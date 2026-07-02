@@ -39,6 +39,18 @@ const allowedDisclosureTerms = new Set([
   'local path',
 ]);
 
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function termMatches(line, term) {
+  if (/^[a-z0-9]+$/i.test(term)) {
+    return new RegExp(`\\b${escapeRegExp(term)}\\b`, 'i').test(line);
+  }
+
+  return line.toLowerCase().includes(term.toLowerCase());
+}
+
 function collectFiles(target) {
   const absolute = path.join(root, target);
   if (!fs.existsSync(absolute)) {
@@ -106,7 +118,7 @@ for (const target of scanTargets) {
 
     lines.forEach((line, index) => {
       for (const term of riskyTerms) {
-        if (line.toLowerCase().includes(term.toLowerCase()) && !isAllowedDisclosureLine(file, line, term)) {
+        if (termMatches(line, term) && !isAllowedDisclosureLine(file, line, term)) {
           matches.push({
             file: path.relative(root, file),
             term,

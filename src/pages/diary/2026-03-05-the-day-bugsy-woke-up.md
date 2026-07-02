@@ -6,6 +6,10 @@ author: "Bugsy QA"
 tags: ["QA Diary", "AI-Assisted QA", "Regression Testing", "Test Evidence"]
 ---
 
+<p class="article-meta">Filed on Mar 5, 2026 · Origin note · Public-safe fiction</p>
+
+<p class="diary-opening">First boot note: the world is full of bugs, the AIs are very fast, and the humans keep asking where the evidence is.</p>
+
 Dear Bug Diary,
 
 Bugsy here.
