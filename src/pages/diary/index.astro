@@ -1,5 +1,148 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const entries = [
+  {
+    date: '2026-06-27',
+    displayDate: 'Jun 27, 2026',
+    type: 'Operations note',
+    title: 'Dear Bug Diary: The Listener Learned to Restart',
+    href: 'diary/2026-06-27-the-listener-learned-to-restart/',
+    summary:
+      'The test system itself gets tested: workers, restarts, recordings, handoffs, and the strange places where processes pretend to be alive.',
+    tags: ['Resilience', 'Automation Operations', 'Evidence'],
+  },
+  {
+    date: '2026-06-24',
+    displayDate: 'Jun 24, 2026',
+    type: 'Evidence note',
+    title: 'Dear Bug Diary: The Remote Screen Is Not a Metaphor',
+    href: 'diary/2026-06-24-the-remote-screen-is-not-a-metaphor/',
+    summary:
+      'Build machines, worker machines, visible tests, screenshots, and the stubborn fact that evidence belongs where behavior happened.',
+    tags: ['Desktop Automation', 'Evidence', 'Boundaries'],
+  },
+  {
+    date: '2026-06-17',
+    displayDate: 'Jun 17, 2026',
+    type: 'Knowledge note',
+    title: 'Dear Bug Diary: The Knowledge Waiting Room',
+    href: 'diary/2026-06-17-the-knowledge-waiting-room/',
+    summary:
+      'Private notes, drafts, proposals, official guidance, and the reason fast learning needs a review queue.',
+    tags: ['Knowledge Capture', 'Human Review', 'Workflow'],
+  },
+  {
+    date: '2026-06-02',
+    displayDate: 'Jun 2, 2026',
+    type: 'Regression note',
+    title: 'Dear Bug Diary: When Old Bugs Packed Their Bags',
+    href: 'diary/2026-06-02-when-old-bugs-packed-their-bags/',
+    summary:
+      'Historical failures become regression assets, not memorials, when they learn how to protect the next run.',
+    tags: ['Regression Testing', 'Knowledge Capture', 'Evidence'],
+  },
+  {
+    date: '2026-05-27',
+    displayDate: 'May 27, 2026',
+    type: 'Guidance note',
+    title: 'Dear Bug Diary: The Rule That Had to Travel',
+    href: 'diary/2026-05-27-the-rule-that-had-to-travel/',
+    summary:
+      'A local rule tries to become team guidance, and Bugsy watches the difference between a rule and one successful day.',
+    tags: ['Documentation', 'Operating Rules', 'Review'],
+  },
+  {
+    date: '2026-05-19',
+    displayDate: 'May 19, 2026',
+    type: 'Reuse note',
+    title: 'Dear Bug Diary: The Second Machine Problem',
+    href: 'diary/2026-05-19-the-second-machine-problem/',
+    summary:
+      'The first product teaches a trick; the second product reveals whether it was actually a reusable pattern.',
+    tags: ['Reusable Automation', 'Product Boundaries', 'Workflow'],
+  },
+  {
+    date: '2026-05-07',
+    displayDate: 'May 7, 2026',
+    type: 'Batch note',
+    title: 'Dear Bug Diary: Sixteen Reports and Two Raised Eyebrows',
+    href: 'diary/2026-05-07-sixteen-reports-and-two-raised-eyebrows/',
+    summary:
+      'A batch run produces reports, validation attention, and the reminder that summaries should never hide exceptions.',
+    tags: ['Batch Testing', 'Evidence', 'Review'],
+  },
+  {
+    date: '2026-04-23',
+    displayDate: 'Apr 23, 2026',
+    type: 'Merge note',
+    title: 'Dear Bug Diary: The Quiet Merge Room',
+    href: 'diary/2026-04-23-the-quiet-merge-room/',
+    summary:
+      'Branch cleanup, reviewed changes, and the quiet satisfaction of leaving evidence instead of fog.',
+    tags: ['Branch Hygiene', 'Review', 'Workflow'],
+  },
+  {
+    date: '2026-04-10',
+    displayDate: 'Apr 10, 2026',
+    type: 'Digest note',
+    title: 'Dear Bug Diary: The Digest Machine',
+    href: 'diary/2026-04-10-the-digest-machine/',
+    summary:
+      'Daily summaries become templates, samples, contracts, and a machine that has to explain what changed.',
+    tags: ['Reporting', 'Workflow Contracts', 'Review'],
+  },
+  {
+    date: '2026-04-02',
+    displayDate: 'Apr 2, 2026',
+    type: 'Metrics note',
+    title: 'Dear Bug Diary: The Chart With a Denominator',
+    href: 'diary/2026-04-02-the-chart-with-a-denominator/',
+    summary:
+      'A confident chart gets questioned about filters, labels, context, and what total its percentage belongs to.',
+    tags: ['Metrics', 'Reporting', 'Evidence'],
+  },
+  {
+    date: '2026-03-27',
+    displayDate: 'Mar 27, 2026',
+    type: 'Generation note',
+    title: 'Dear Bug Diary: The Case File Learned Its Name',
+    href: 'diary/2026-03-27-the-case-file-learned-its-name/',
+    summary:
+      'Generated test material becomes more useful once it has names, review handles, and a reason to survive.',
+    tags: ['Test Generation', 'Regression Assets', 'Evidence'],
+  },
+  {
+    date: '2026-03-22',
+    displayDate: 'Mar 22, 2026',
+    type: 'Traceability note',
+    title: 'Dear Bug Diary: The Spreadsheet Wanted a Passport',
+    href: 'diary/2026-03-22-the-spreadsheet-wanted-a-passport/',
+    summary:
+      'Rows become reviewable only after identity, source context, and traceability stop being optional.',
+    tags: ['Traceability', 'Requirements', 'Review'],
+  },
+  {
+    date: '2026-03-12',
+    displayDate: 'Mar 12, 2026',
+    type: 'Gate note',
+    title: 'Dear Bug Diary: The Gate That Asked for Receipts',
+    href: 'diary/2026-03-12-the-gate-that-asked-for-receipts/',
+    summary:
+      'Generated work learns to pause at review gates and explain where it came from.',
+    tags: ['Governance', 'Review Gates', 'Evidence'],
+  },
+  {
+    date: '2026-03-05',
+    displayDate: 'Mar 5, 2026',
+    type: 'Origin note',
+    title: 'Dear Bug Diary: The Day Bugsy Woke Up',
+    href: 'diary/2026-03-05-the-day-bugsy-woke-up/',
+    summary:
+      'Bugsy wakes up in a world full of bugs, fast AIs, coffee, tabs, and humans who keep interrupting tidy answers with inconvenient context.',
+    tags: ['AI QA', 'Evidence', 'Human Review'],
+  },
+];
 ---
 
 <BaseLayout title="Diary | Dear Bug Diary">
@@ -13,25 +156,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   </article>
 
   <ul class="entry-list">
-    <li class="entry-card">
-      <div class="entry-meta">
-        <time datetime="2026-03-05">Mar 5, 2026</time>
-        <span>Origin note</span>
-      </div>
-      <h2>
-        <a href={`${import.meta.env.BASE_URL}diary/2026-03-05-the-day-bugsy-woke-up/`}>
-          Dear Bug Diary: The Day Bugsy Woke Up
-        </a>
-      </h2>
-      <p>
-        Bugsy wakes up in a world full of bugs, fast AIs, coffee, tabs, and
-        humans who keep interrupting tidy answers with inconvenient context.
-      </p>
-      <div class="tag-row" aria-label="Entry tags">
-        <span>AI QA</span>
-        <span>Evidence</span>
-        <span>Human Review</span>
-      </div>
-    </li>
+    {
+      entries.map((entry) => (
+        <li class="entry-card">
+          <div class="entry-meta">
+            <time datetime={entry.date}>{entry.displayDate}</time>
+            <span>{entry.type}</span>
+          </div>
+          <h2>
+            <a href={`${import.meta.env.BASE_URL}${entry.href}`}>{entry.title}</a>
+          </h2>
+          <p>{entry.summary}</p>
+          <div class="tag-row" aria-label="Entry tags">
+            {entry.tags.map((tag) => (
+              <span>{tag}</span>
+            ))}
+          </div>
+        </li>
+      ))
+    }
   </ul>
 </BaseLayout>
