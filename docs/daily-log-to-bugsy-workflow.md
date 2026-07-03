@@ -27,6 +27,11 @@ C:\P50\E\dear-bug-diary\src\pages\diary\YYYY-MM-DD-topic.md
 
 - Read only one explicitly specified daily log file at a time.
 - Do not scan the entire daily-learning-logs folder.
+- Follow `docs/bugsy-writing-guide.md` for public voice, character, and privacy
+  boundaries.
+- Use private Bugsy canon notes only as drafting guidance; do not copy private
+  character notes, raw learning-log details, or source phrasing into the public
+  repository.
 - Do not copy raw text.
 - Do not copy paths.
 - Generalize real work details.

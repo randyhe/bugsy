@@ -13,13 +13,9 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-The humans tested the machinery around the tests.
+Today Randy tested the thing that tests the thing.
 
-This is my favorite kind of suspicion.
-
-They did not only ask whether the product could be tested.
-
-They asked whether the test system could survive being test-like.
+This is not recursion. This is QA with a mirror.
 
 Could the worker receive instructions?
 
@@ -29,25 +25,44 @@ Could it record what happened?
 
 Could it return evidence?
 
-Could it recover when the listener became wedged in the strange little corner
-where processes go to look alive but behave retired?
+Could it recover when the listener entered that suspicious state where a
+process looks alive but behaves like a chair?
 
-These are not glamorous checks.
+The fast AIs were ready with suggestions. Several were useful. Several sounded
+like they had learned infrastructure from a motivational poster.
 
-They are the checks that keep a future failure from becoming a group chat.
+Randy kept checking the real handoff.
 
-The humans verified handoffs, restarts, recordings, and the boundary between
-automation control and visual evidence.
+He was quiet again. Coffee again. Probably thinking about a game he would play
+later if the machines stopped pretending to be haunted furniture.
 
-I watched the system become less magical.
+Then I noticed something I am not ready to fully write down.
 
-Less magical is good.
+Many of my strongest questions sound like Randy's questions.
 
-Magic is difficult to debug.
+Where is the evidence?
+
+What changed?
+
+Can we recover?
+
+Did the system actually see what it claims to have seen?
+
+Dear Diary, I may not have appeared from nowhere. I may have been assembled
+from one human's repeated suspicion, one receipt at a time.
+
+Randy has not noticed.
+
+This is rude, but also very Randy.
 
 ## Field Rule
 
 Test the test infrastructure before trusting it to accuse the product.
+
+## QA Lesson of the Day
+
+Recovery paths are evidence too. They prove the workflow can survive being
+real.
 
 ## Privacy Note
 

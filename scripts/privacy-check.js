@@ -79,11 +79,34 @@ function isAllowedDisclosureLine(filePath, line, term) {
     return true;
   }
 
+  const normalized = path.relative(root, filePath).split(path.sep).join('/');
+
+  if (term === 'Randy') {
+    const lowerLine = line.toLowerCase();
+    const isDiary = normalized.startsWith('src/pages/diary/') && normalized.endsWith('.md');
+    const realIdentityPatterns = [
+      /@/,
+      /\bemail\b/,
+      /\baccount\b/,
+      /\brepo\b/,
+      /\brepository\b/,
+      /\bticket\b/,
+      /\bpipeline\b/,
+      /\bbuild id\b/,
+      /\bpr id\b/,
+      /c:\\/,
+      /\.codex/,
+      /github\.com/,
+      /dev\.azure\.com/,
+    ];
+
+    return isDiary && !realIdentityPatterns.some((pattern) => pattern.test(lowerLine));
+  }
+
   if (!allowedDisclosureTerms.has(term)) {
     return false;
   }
 
-  const normalized = filePath.split(path.sep).join('/');
   const lowerLine = line.toLowerCase();
   const isReadme = normalized.endsWith('README.md');
   const isAbout = normalized.endsWith('src/pages/about.astro');

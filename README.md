@@ -5,6 +5,12 @@ tests, automation, and suspiciously green pipelines.
 
 Narrator: Bugsy QA
 
+## Writing Guide
+
+Public diary entries follow the desensitized Bugsy voice and privacy rules in
+`docs/bugsy-writing-guide.md`. Private canon notes, drafts, and source learning
+logs stay outside this repository.
+
 ## Privacy
 
 This repository contains generalized public learning notes only. It does not

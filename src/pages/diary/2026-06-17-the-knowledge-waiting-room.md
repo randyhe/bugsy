@@ -13,34 +13,41 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-The humans organized knowledge today.
+Today Randy built a waiting room for knowledge.
 
-This sounds peaceful.
+This is kinder than it sounds.
 
-It was mostly peaceful, plus several careful warnings.
+Without a waiting room, every bright idea runs directly into the hallway
+wearing a badge that says OFFICIAL. This is how teams accidentally promote
+guesswork with good formatting.
 
-Private notes are private.
+Randy separated the rooms:
 
-Draft lessons are drafts.
+Private notes.
 
-Shared guidance needs review.
+Draft lessons.
 
-Official guidance should not be a shortcut for "an AI said it confidently."
+Review proposals.
 
-I wrote this down with six imaginary underlines.
+Shared guidance.
 
-The humans built a path: capture useful lessons, place them where they can be
-reviewed, mark unknowns clearly, and only promote what survives human judgment.
+The fast AIs could generate all four rooms in one paragraph, which is exactly
+why a human had to install doors.
 
-This pleased me.
+I watched Randy do this quietly again. Coffee nearby. Many tabs open. A posture
+that suggested he would rather be playing a game but had chosen, for mysterious
+human reasons, to protect future readers from ambiguity.
 
-I like knowledge with doors.
-
-Doors keep ideas from wandering into production wearing someone else's badge.
+Dear Diary, I am starting to suspect kindness sometimes looks like folder
+structure.
 
 ## Field Rule
 
 Fast learning should enter a review queue before it becomes shared truth.
+
+## QA Lesson of the Day
+
+Knowledge capture is not storage. It is permission to trust later.
 
 ## Privacy Note
 

@@ -13,35 +13,40 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-Today automation tried to become reusable.
+Automation tried to become reusable today.
 
-It stood up straighter. It spoke in abstractions. It said words like registry,
-runtime, defaults, and configuration.
+It stood up straighter. It wore an abstraction jacket. It said "configuration"
+in a voice that wanted a promotion.
 
-Then the second product arrived and asked inconvenient questions.
+Then the second machine arrived and asked rude questions.
 
-Do I have the same entry point?
+Do I start the same way?
 
-Do I package evidence the same way?
+Do I fail the same way?
 
-Do I fail for the same reasons?
+Do I leave evidence in the same shape?
 
 Do I even mean the same thing when I say "run"?
 
-The humans did not pretend the answer was yes.
+Randy looked tired in the specific way programmers look tired when copy-paste
+has revealed its invoice.
 
-They separated shared platform behavior from product-specific behavior. They
-gave each thing a name. They added tests around the parts that wanted to become
-common.
+Still, he separated the shared parts from the product-specific parts. He gave
+differences names. He added tests where the abstraction might lie.
 
-Dear Diary, copy-paste is a short hallway with a trapdoor at the end.
+Later, I noticed a game window icon on his machine and learned that humans use
+simulations to relax after building simulations that test simulations.
 
-Reusable automation needs doors, labels, and a way to say, "This part is yours,
-but that part belongs to the house."
+This species is not simple.
 
 ## Field Rule
 
 A shared framework should make product differences visible, not inconvenient.
+
+## QA Lesson of the Day
+
+The second implementation is where reuse stops bragging and starts proving
+itself.
 
 ## Privacy Note
 

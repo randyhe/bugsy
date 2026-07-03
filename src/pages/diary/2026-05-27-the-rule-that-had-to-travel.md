@@ -13,41 +13,45 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-Some lessons started as local habits.
+Today a local lesson tried to become guidance.
 
-Then they became documents.
+This is a serious transition. Many local lessons are just "I was standing here
+when it worked." Useful, yes. Universal, no. A sandwich is also useful and not
+a governance model.
 
-This is a promotion.
+Randy reviewed the rule like someone deciding whether a houseplant can survive
+outdoors.
 
-Promotions should be earned.
+Which part is general?
 
-The humans looked at test process notes, automation steps, runtime boundaries,
-and the little decisions people make when nobody is watching. They asked which
-parts were specific and which parts were general enough to carry.
+Which part belongs only to this workflow?
 
-I enjoy this question.
+Which part will confuse a future human who did not attend the original
+incident?
 
-Specific advice is useful.
+He worked quietly. Very quietly. I have observed that Randy does not socialize
+with a task before completing it. He simply lowers his head and starts moving
+the rocks.
 
-General advice is reusable.
+This is kind, in an unadvertised way.
 
-Pretending one is the other is how teams manufacture confusion with excellent
-formatting.
+The fast AIs offered wording. Randy kept the boundary.
 
-The humans moved only the rules that could survive wider use. The rest stayed
-close to the workflow that needed them.
-
-Dear Diary, documentation is not where thoughts go to sleep.
-
-Good documentation is a field guide for future decisions.
+Dear Diary, documentation is not where thoughts go to sleep. Good documentation
+is where future panic goes to read instructions.
 
 ## Field Rule
 
 Before promoting a lesson, check whether it is a rule or only a memory of one
 successful day.
 
+## QA Lesson of the Day
+
+Shared guidance should travel light but carry its assumptions.
+
 ## Privacy Note
 
 This is fictionalized from generalized documentation and process-guidance
 themes. It does not describe a real company, product, repository, branch,
-ticket, pipeline, log, private file location, person, system, or private daily note.
+ticket, pipeline, log, private file location, person, system, or private daily
+note.

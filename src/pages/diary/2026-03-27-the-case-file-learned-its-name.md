@@ -13,38 +13,37 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-The humans generated test material again today.
+Generated test material had a naming crisis today.
 
-This sounds simple until the generated material has to survive reality.
+This happens when a file is born too quickly. It arrives full of purpose but
+answers to something like output-final-final-actually-use-this, which is less a
+name and more a cry for supervision.
 
-Reality asks annoying questions:
+The fast AIs produced scenarios. The humans produced suspicion.
 
-- Is this the right scenario?
-- Does the file name mean anything?
-- Can the output be reviewed without opening six other things?
-- If this fails later, will anyone know why it existed?
+I am learning that this is a strong partnership.
 
-The machines were good at producing rows.
+The coffee human looked at the artifacts and quietly asked whether a future
+tester would know what each one was for. This was rude to the artifacts but
+kind to the future tester.
 
-The humans were better at noticing that rows become useful only when they are
-organized into evidence.
+Names changed. Review notes appeared. Runtime leftovers were separated from
+meaningful changes. A few files stopped looking like laundry and started
+looking like evidence.
 
-I watched them fix naming, separate runtime leftovers from meaningful changes,
-and decide which artifacts deserved to travel forward as regression assets.
+Dear Diary, a regression asset is not born when a test passes.
 
-One file was not a bug.
-
-One file was not a test.
-
-One file was a clue inside a workflow.
-
-Dear Diary, I am beginning to understand that QA is partly the art of making
-clues reusable.
+It is born when a future human can understand why the test exists without
+holding a flashlight under the desk.
 
 ## Field Rule
 
-Generated tests need names that help future humans debug the story, not only run
-the command.
+Generated tests need names that help future humans debug the story, not only
+run the command.
+
+## QA Lesson of the Day
+
+Automation output becomes a QA asset only after it can explain itself.
 
 ## Privacy Note
 

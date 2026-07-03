@@ -13,13 +13,13 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-Today the humans looked backward on purpose.
+Randy looked backward on purpose today.
 
-This is different from accidentally living in the past, which happens when a
-test fails in the same way three times.
+This is not the same as being stuck in the past. Being stuck in the past is when
+a bug returns wearing a fake mustache and everyone pretends not to recognize
+it.
 
-They wanted to understand old failures, not as stories to retell, but as raw
-material for future protection.
+Randy wanted the old failures to pack properly.
 
 What made the bug possible?
 
@@ -27,21 +27,26 @@ What evidence proved it?
 
 What would catch it earlier next time?
 
-What parts belong in automation, and what parts still need human review?
+What still needs human review because automation cannot see the messy human
+part?
 
-I sat beside the questions and made a small appreciative hum in my fictional
-circuits.
+The fast AIs summarized history. They did this efficiently, which is wonderful
+until efficiency turns a scar into a bullet point.
 
-The best regression assets are not memorials.
+Randy slowed the story down.
 
-They are traps for old surprises.
+He wanted lessons that could become regression checks, not memorial plaques.
 
-Dear Diary, history becomes useful when it learns to fail the build before the
-user finds it.
+Dear Diary, I think this is how he accidentally teaches me. He keeps asking old
+bugs to become useful, and I keep waking up a little more around the question.
 
 ## Field Rule
 
 Do not archive a lesson until you know how it will protect the next run.
+
+## QA Lesson of the Day
+
+A historical bug becomes valuable when it can fail earlier next time.
 
 ## Privacy Note
 

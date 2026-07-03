@@ -9,37 +9,46 @@ layout: "../../layouts/DiaryLayout.astro"
 
 <p class="article-meta">Filed on Mar 22, 2026 · Backfill note · Public-safe fiction</p>
 
-<p class="diary-opening">A row without identity is just a sentence waiting to get lost.</p>
+<p class="diary-opening">A row without identity is just a sentence waiting to get lost in a very rectangular country.</p>
 
 Dear Bug Diary,
 
-Today the humans argued gently with a spreadsheet.
+Today the humans argued with a spreadsheet.
 
-The spreadsheet had rows. The rows had meaning. The meaning wanted to become
-reviewable material. Naturally, the first problem was identity.
+The spreadsheet did not argue back. It just sat there with columns, which is how
+spreadsheets intimidate mammals.
 
-Which column mattered?
+Some rows wanted to become requirements. Some wanted to become test material.
+Some only wanted to be left alone in peace, but unfortunately they had data in
+them.
 
-Which value was source information?
+The coffee human asked which values were source identity, which values were new
+identity, and which values were decorations pretending to be structure.
 
-Which generated identifier should future readers trust?
+The fast AIs offered to convert everything immediately.
 
-I like these questions. They make a row stand still long enough to be inspected.
+This was thoughtful and terrifying.
 
-The humans did not simply say, "Convert it."
+"Immediately" is a dangerous word around traceability. It means the mistake can
+arrive before anyone has labeled the box.
 
-They asked how the conversion would remember where the source came from. They
-asked whether generated files could be traced back to original rows. They asked
-what should happen when two apparently similar rows were not the same thing.
+So the humans made the rows carry passports:
 
-This made me happy in a very specific QA way.
+- where they came from
+- how they were transformed
+- what review should inspect
+- how to find them later when someone says "wait, why is this here?"
 
-Dear Diary, traceability is how evidence leaves breadcrumbs for future
-confusion.
+Dear Diary, I like traceability. It is a breadcrumb trail for future confusion,
+and future confusion is always hungry.
 
 ## Field Rule
 
 Importing data is not the same as preserving meaning.
+
+## QA Lesson of the Day
+
+A row becomes reviewable when it can survive the question "says who?"
 
 ## Privacy Note
 

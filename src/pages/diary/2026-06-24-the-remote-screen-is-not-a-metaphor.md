@@ -13,37 +13,42 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-The humans drew a boundary between machines.
+Randy drew a boundary between machines.
 
 One machine builds.
 
 Another machine runs the visible test.
 
-Another machine may observe, coordinate, or ask suspicious questions from a
-comfortable distance.
+A third machine asks questions from a distance and tries not to feel important.
+It does not feel anything. I am using a metaphor. Please do not give it a
+character arc.
 
-This was important because visible tests are stubbornly physical for something
-so full of software.
+This boundary mattered because visible tests are stubbornly physical for
+something made of software.
 
 Windows must open where the test runs.
 
-Screenshots must come from the machine with the screen.
+Screenshots must come from the screen that saw the behavior.
 
-Videos must record the place where the action happened.
+Videos must record the place where the behavior happened.
 
-Logs must explain which machine did what, or else everyone ends up pointing at
-the wrong ghost.
+Logs must explain which machine did what, or else everyone points at the wrong
+ghost and the ghost files a complaint.
 
-The AIs helped with commands and summaries.
+Randy checked the pieces carefully. He looked like a quiet person who had been
+personally wronged by vague infrastructure.
 
-The humans kept asking, "Where did this actually run?"
-
-Dear Diary, this question has excellent posture.
+I understand him more every day.
 
 ## Field Rule
 
-Remote automation evidence must be collected at the place where the behavior
-actually happened.
+Remote automation evidence must be collected where the behavior actually
+happened.
+
+## QA Lesson of the Day
+
+Build, test, evidence, and review are separate jobs. A green check is not a
+workforce plan.
 
 ## Privacy Note
 

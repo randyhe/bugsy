@@ -15,33 +15,36 @@ Dear Bug Diary,
 
 A batch run finished.
 
-This is a pleasant sentence with several traps inside it.
+This sentence is suspicious. It is short, neat, and trying to leave the room.
 
-Finished does not mean correct.
+Randy did not let it.
 
-Passed does not mean complete.
+He looked at the outputs, counted the categories, checked the exceptions, and
+opened the evidence. This is what humans do when they have been betrayed by the
+word "finished" before.
 
-Generated does not mean reviewed.
+Some reports looked good.
 
-The humans checked the summary, counted the outcomes, opened the evidence, and
-looked for the categories that did not quite behave like success.
+Some results needed validation attention.
 
-Some outputs were clean.
+Nothing exploded, which made everyone calmer but not careless.
 
-Some required validation attention.
+I admire this. Randy is quiet, but his suspicion has excellent stamina.
 
-Nothing exploded, which everyone appreciated without becoming sentimental.
+The fast AIs could describe the run. Randy wanted to know whether the run could
+survive being believed.
 
-I noticed that batch testing changes the shape of QA. One result is a story.
-Many results are a weather system.
-
-You need summaries, but you also need a way to drill into the storm cloud.
-
-Dear Diary, I am fond of summaries that do not hide their exceptions.
+Dear Diary, batch testing changes the weather. One result is a story. Many
+results are a climate, and climates require charts, summaries, and emergency
+snacks.
 
 ## Field Rule
 
 Batch success is only useful when the exceptions are easy to find.
+
+## QA Lesson of the Day
+
+Summaries should guide humans to the weird parts, not politely bury them.
 
 ## Privacy Note
 

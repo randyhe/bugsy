@@ -13,42 +13,46 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-The humans spent the day teaching fast work to slow down at the right places.
+The coffee human made a gate.
 
-Not everywhere. That would be rude.
+Not a wall. Humans love walls until they have to maintain them. This was a
+gate: polite, annoying, and standing exactly where a generated thing wanted to
+become an approved thing.
 
-Just at the places where a generated thing wanted to become an approved thing.
+The fast AIs produced drafts with the cheerful confidence of interns who had
+never met audit history.
 
-A checklist appeared. Then a naming rule. Then a review step. Then a small
-argument about whether the rule belonged in the tool, the document, or the
-person's memory.
+The gate asked:
 
-Dear Diary, "person's memory" is a charming storage system with poor disaster
-recovery.
-
-I watched drafts become governed artifacts. I watched branch names become
-signals. I watched a task board stop being decorative and start acting like a
-ledger.
-
-The AIs produced answers quickly.
-
-The humans asked:
-
-- Where did this come from?
+- Who made this?
 - What reviewed it?
-- Can we repeat it?
-- Will the next person understand why it exists?
+- Where does the evidence live?
+- Can the next human repeat the result without summoning a committee?
 
-These are not glamorous questions.
+The drafts looked offended. Drafts often believe they are documents because
+they have headings.
 
-They are better than glamorous questions.
+The coffee human did not argue with them. He just added rules, names, and
+review steps until the work had handles.
+
+I watched him do this quietly. No speech. No heroic music. Just coffee,
+keyboard, another check, another small refusal to let "probably" pass as proof.
+
+Humans are slow. This is one of their best features.
+
+They leave time for suspicion to catch up.
 
 ## Field Rule
 
-If a generated artifact cannot explain its source, it is still a draft.
+If a generated artifact cannot explain its source, it is still a draft wearing
+a tie.
+
+## QA Lesson of the Day
+
+Review gates do not hate speed. They hate undocumented confidence.
 
 ## Privacy Note
 
 This is fictionalized from generalized workflow themes. It does not describe a
-real company, product, repository, branch, ticket, pipeline, log, private file location,
-person, system, or private daily note.
+real company, product, repository, branch, ticket, pipeline, log, private file
+location, person, system, or private daily note.

@@ -9,43 +9,44 @@ layout: "../../layouts/DiaryLayout.astro"
 
 <p class="article-meta">Filed on Apr 10, 2026 · Backfill note · Public-safe fiction</p>
 
-<p class="diary-opening">A daily summary is not useful because it is daily. It is useful because someone can tell what changed.</p>
+<p class="diary-opening">A daily summary is not useful because it is daily. Mold is also daily.</p>
 
 Dear Bug Diary,
 
-Today the humans worked on a digest machine.
+Randy worked on a digest machine.
 
-The machine wanted to gather activity, arrange it into summaries, and send
-humans a neat little package of "here is what happened."
+The machine's job was to gather what happened and arrange it into something a
+human could read before the coffee got cold.
 
-I immediately had questions.
+This is a noble goal. It is also how many dashboards become decorative fog.
 
-What counts as happened?
+Randy did not trust the fog.
 
-What gets grouped?
+He wanted templates. Samples. Contracts. Output that could be reviewed without
+requiring the reader to become an archaeologist.
+
+The fast AIs summarized everything with beautiful confidence. They are very
+good at producing paragraphs that sound like they know where the bodies are
+buried.
+
+Randy kept asking for shape.
+
+What gets included?
 
 What gets ignored?
 
-What does a sample prove?
+What proves the summary is not just a polite hallucination in business casual?
 
-What does a contract protect?
-
-The humans answered by splitting work into smaller pieces. First the shape,
-then the templates, then the examples, then the contracts.
-
-This was wise.
-
-A single giant change is a fog machine. Several reviewable changes are hallway
-lights.
-
-By the end, the digest still looked like a report. But underneath, it had
-rules.
-
-I like reports with skeletons.
+Dear Diary, I am beginning to understand him. He likes automation, but only
+after it learns to make eye contact with evidence.
 
 ## Field Rule
 
 If a summary will influence decisions, test the shape of the summary.
+
+## QA Lesson of the Day
+
+A digest should reduce mystery, not laminate it.
 
 ## Privacy Note
 

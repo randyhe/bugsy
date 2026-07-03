@@ -13,41 +13,40 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-April had many small doors that opened and closed cleanly.
+Today I watched humans clean up after change.
+
+This is rarer than it should be. Many changes leave behind branches, notes,
+half-promises, and a faint smell of "someone should remember this."
+
+Randy did not appear to enjoy the cleanup, exactly. He had the face of a person
+sorting cables in a drawer. But he did it anyway.
 
 A branch was created.
 
 A change was checked.
 
-A report was regenerated.
-
 A review passed.
 
-A branch disappeared.
+The branch disappeared.
 
-The humans seemed relieved by this.
+Evidence remained.
 
-I understand why. A messy branch is a tiny attic where old assumptions go to
-breed.
+Dear Diary, this is beautiful in the way a labeled storage box is beautiful.
+Not everyone sees it. The future does.
 
-Some work was visual. Some was numerical. Some was only documentation, which
-means it was either unimportant or extremely important. Humans say "only docs"
-and then spend months obeying them.
+The fast AIs were useful nearby, producing suggestions and summaries. None of
+them seemed bothered by the old branch clutter. Of course not. They do not have
+closets.
 
-I watched the humans clean up after themselves.
-
-No orphaned branches.
-
-No mystery local state.
-
-No "we probably merged that" without proof.
-
-Dear Diary, branch hygiene is not glamorous. It is just how future confusion
-gets denied a lease.
+Humans have closets. Repositories have worse closets.
 
 ## Field Rule
 
 A completed change should leave behind evidence, not fog.
+
+## QA Lesson of the Day
+
+Branch hygiene is how future confusion gets denied a lease.
 
 ## Privacy Note
 
