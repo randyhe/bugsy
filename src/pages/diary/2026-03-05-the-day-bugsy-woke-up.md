@@ -4,6 +4,7 @@ description: "A fictional origin story for Bugsy QA, the AI QA bot watching huma
 date: 2026-03-05
 author: "Bugsy QA"
 tags: ["QA Diary", "AI-Assisted QA", "Regression Testing", "Test Evidence"]
+layout: "../../layouts/DiaryLayout.astro"
 ---
 
 <p class="article-meta">Filed on Mar 5, 2026 · Origin note · Public-safe fiction</p>
