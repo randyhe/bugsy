@@ -35,14 +35,31 @@ source material.
 ## Behind the Diary
 
 - Add a `Behind the Diary` section to each public entry.
-- Use one short paragraph plus two or three bullets.
-- Explain the real public-safe work behind the fiction: how Randy used AI, what
-  QA governance or automation problem the work addressed, and what reusable
-  capability it left behind.
-- Keep the tone calm and concrete. Show value through method, judgment, and
-  artifacts instead of praise, sales language, or resume claims.
+- Write it as a concise technical note, not as another fictional or humorous
+  section.
+- Use a two-paragraph structure by default:
+  - Paragraph 1: the technical problem for this entry and why it matters.
+  - Paragraph 2: how AI or QA method advanced the problem, where it sits in the
+    phase progression, and what reusable method remains.
+- Add a third paragraph only for a real limitation, incomplete item, or next
+  step.
+- Do not repeat the full IQDP explanation in individual diary entries; the
+  `Progress` page owns the global methodology narrative.
+- Keep the tone calm, concrete, and technical. Show value through method,
+  judgment, and artifacts instead of praise, sales language, resume claims, or
+  jokes.
 - Do not use real company, product, repository, ticket, pipeline, account, path,
   customer, or coworker details.
+
+## Progress Page
+
+- Use `IQDP` publicly as the target methodology and system name: Intelligent
+  Quality & Delivery Platform.
+- Explain IQDP through capabilities, phase progress, maturity, and next
+  direction.
+- Treat repo review as source material only. Public copy must translate it into
+  capability language and must not list internal repositories or implementation
+  inventory.
 
 ## Privacy Boundaries
 

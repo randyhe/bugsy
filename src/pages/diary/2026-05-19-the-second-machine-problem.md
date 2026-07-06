@@ -50,16 +50,14 @@ itself.
 
 ## Behind the Diary
 
-This entry reflects work on making automation reusable across more than one
-context. AI can help refactor, compare patterns, and draft configuration ideas,
-but the core engineering judgment is deciding which differences deserve names.
+The technical problem is deciding whether automation is truly reusable or only
+copied. A framework becomes fragile when it hides context-specific behavior
+behind a shared abstraction that is too vague.
 
-- AI angle: use AI to reason about shared logic, configuration, and
-  context-specific behavior.
-- QA value: test whether the framework exposes differences instead of hiding
-  them behind abstraction.
-- Reusable asset: a more portable automation model that can grow without
-  pretending every workflow is the same.
+Randy used AI to compare patterns, reason about shared logic, and draft
+configuration ideas, then kept product-specific differences explicit. In the
+May reuse phase, this produced a reusable automation method that separates
+common workflow behavior from context-specific behavior.
 
 ## Privacy Note
 

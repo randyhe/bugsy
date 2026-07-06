@@ -48,15 +48,14 @@ Summaries should guide humans to the weird parts, not politely bury them.
 
 ## Behind the Diary
 
-This entry is about scaling QA attention across many automation results without
-letting the summary hide the strange parts. AI helps organize the volume, but
-the useful outcome is a reporting shape that makes exceptions easy to inspect.
+The technical problem is scaling QA attention across many automation results.
+AI can summarize a batch, but the report becomes risky if exceptions, warnings,
+and evidence paths are buried under a clean status.
 
-- AI angle: use AI to summarize batches, classify outcomes, and draft validation
-  notes.
-- QA value: separate normal results from the cases that need human attention.
-- Reusable asset: a batch reporting approach that makes evidence searchable
-  instead of ornamental.
+Randy used AI to classify outcomes and draft validation notes, then kept the
+report shape focused on inspectable exceptions. In the May reuse phase, this
+left a reusable batch-reporting method for scaling review without hiding the
+cases that need human attention.
 
 ## Privacy Note
 

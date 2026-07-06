@@ -51,16 +51,14 @@ Shared guidance should travel light but carry its assumptions.
 
 ## Behind the Diary
 
-The real pattern here is turning one useful local lesson into guidance that
-other work can safely reuse. AI helps draft language, but the important human
-step is deciding what is general, what is local, and what future readers need
-to know.
+The technical problem is promoting local QA learning without overgeneralizing
+it. A lesson from one workflow can become misleading guidance if assumptions,
+limits, and original context are removed.
 
-- AI angle: use AI to draft and refine operating guidance without letting the
-  draft erase context.
-- QA value: separate reusable rules from one-time conditions.
-- Reusable asset: documentation that carries assumptions clearly enough to help
-  future QA work.
+Randy used AI to draft and refine operating guidance, then applied human review
+to separate general rules from one-time conditions. In the May reuse phase,
+this left a reusable documentation method for carrying assumptions clearly
+enough to guide later QA decisions.
 
 ## Privacy Note
 

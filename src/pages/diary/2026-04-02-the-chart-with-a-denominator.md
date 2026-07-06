@@ -49,15 +49,14 @@ If a chart changes behavior, test the chart like behavior.
 
 ## Behind the Diary
 
-This entry points to reporting work where AI can help summarize and shape data,
-but human QA still has to challenge what the visual is actually saying. The
-value is in making metrics explain their filters, totals, labels, and limits.
+The technical problem is metric trust. AI can summarize reporting output, but a
+chart can mislead if the denominator, filters, labels, time range, or excluded
+categories are not clear.
 
-- AI angle: use AI to inspect reporting language and surface missing context.
-- QA value: validate denominators, filters, labels, and time ranges before
-  trusting a metric.
-- Reusable asset: a reporting review habit that treats charts as behavior with
-  consequences.
+Randy used QA review habits to challenge the reporting context before trusting
+the visual. In the April measurable-output phase, this left a reusable method:
+treat reporting as testable behavior, because a metric can change decisions as
+directly as a product feature.
 
 ## Privacy Note
 

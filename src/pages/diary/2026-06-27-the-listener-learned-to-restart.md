@@ -66,16 +66,14 @@ real.
 
 ## Behind the Diary
 
-The practical work behind this entry is testing the automation system itself:
-handoff, startup, recording, recovery, and the awkward states where a process
-looks alive but cannot be trusted. AI helps explore scenarios, while Randy's QA
-judgment keeps the focus on observable recovery.
+The technical problem is trust in the automation infrastructure itself. A test
+system cannot reliably judge product behavior until its own handoff, startup,
+recording, recovery, and failure reporting paths are observable.
 
-- AI angle: use AI to draft resilience checks and reason about operational
-  failure modes.
-- QA value: test worker behavior, listener recovery, and evidence return paths.
-- Reusable asset: a stronger automation operations loop where the test system
-  earns trust before judging anything else.
+Randy used AI to draft resilience checks and reason through operational failure
+modes, then focused validation on worker behavior, recovery, and evidence
+return. In the June resilience phase, this left a reusable operations loop where
+the test system earns trust before it is used to judge anything else.
 
 ## Privacy Note
 

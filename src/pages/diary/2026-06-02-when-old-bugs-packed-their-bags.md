@@ -50,15 +50,14 @@ A historical bug becomes valuable when it can fail earlier next time.
 
 ## Behind the Diary
 
-This entry captures the habit of converting past failures into future
-protection. AI can help summarize history, but the useful work is choosing
-which lessons become checks, which stay as review prompts, and which still need
-human judgment.
+The technical problem is turning historical failures into future protection.
+AI can summarize past defects, but QA still has to decide which lessons become
+automated checks, which remain review prompts, and which need human judgment.
 
-- AI angle: use AI to extract lessons from historical failure patterns.
-- QA value: turn old defects into regression thinking and reviewable test ideas.
-- Reusable asset: a knowledge-to-regression loop that makes past mistakes pay
-  rent.
+Randy used AI to extract patterns from failure history while preserving the
+decision boundary around regression value. In the June governance phase, this
+left a reusable knowledge-to-regression method for making old failures protect
+future work.
 
 ## Privacy Note
 

@@ -52,17 +52,14 @@ workforce plan.
 
 ## Behind the Diary
 
-This entry reflects desktop automation work where evidence only matters if it
-comes from the place that actually observed the behavior. AI can help reason
-about architecture and failure modes, but the QA value is enforcing the
-boundary between build, visible execution, and proof.
+The technical problem is evidence ownership in desktop automation. Screenshots,
+recordings, and logs only prove behavior when they come from the machine and
+session that actually observed the test.
 
-- AI angle: use AI to reason through machine roles, handoffs, and evidence
-  expectations.
-- QA value: make screenshots, recordings, and logs accountable to the machine
-  that actually saw the behavior.
-- Reusable asset: an evidence model for automation that keeps remote execution
-  honest.
+Randy used AI to reason through machine roles, handoffs, and failure modes,
+then kept build, execution, capture, and review responsibilities separate. In
+the June evidence-architecture phase, this left a reusable model for making
+remote execution evidence accountable to the correct context.
 
 ## Privacy Note
 

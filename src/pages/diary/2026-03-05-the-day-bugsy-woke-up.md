@@ -67,16 +67,14 @@ Evidence gives everyone something better to point at than vibes.
 
 ## Behind the Diary
 
-This entry frames the start of an AI-assisted QA practice: not as magic, but as
-a habit of asking slower questions after fast answers. The real work behind the
-fiction is the beginning of a personal operating model for using AI without
-letting it outrun evidence.
+The technical problem is trust calibration for AI-assisted QA output. Fast
+analysis and draft generation are useful only when the workflow still records
+what changed, what was checked, and what evidence supports the result.
 
-- AI angle: use AI to speed up analysis, drafts, and test thinking without
-  handing over the final judgment.
-- QA value: turn vague confidence into repeatable evidence questions.
-- Reusable asset: a public-safe narrative frame for showing how AI can support
-  QA judgment instead of replacing it.
+Randy used AI to speed up analysis, drafting, and test thinking, then kept the
+review loop centered on evidence and regression value. In the March foundation
+phase, this established the first reusable method: every AI-assisted answer
+needs a human-readable evidence trail before it can influence QA decisions.
 
 ## Privacy Note
 

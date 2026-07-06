@@ -50,15 +50,14 @@ A digest should reduce mystery, not laminate it.
 
 ## Behind the Diary
 
-Behind the joke is work on turning daily or repeated activity into structured
-summaries that can be checked. AI makes summarization easier, but the durable
-skill is designing the template, contract, and review shape around the summary.
+The technical problem is unreviewable summarization. AI can condense repeated
+activity into readable digests, but the summary is weak if it does not define
+what is included, what is omitted, and what evidence supports the claims.
 
-- AI angle: use AI to condense activity into readable draft digests.
-- QA value: define what summaries include, what they omit, and what they must
-  prove before anyone acts on them.
-- Reusable asset: a reviewable reporting pattern for turning noisy work into
-  decision-ready signals.
+Randy used templates and output contracts to make summaries easier to verify.
+In the April measurable-output phase, this produced a reusable reporting method
+for turning noisy activity into decision-ready information without removing
+human review.
 
 ## Privacy Note
 

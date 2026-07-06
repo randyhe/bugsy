@@ -1,0 +1,171 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const capabilities = [
+  {
+    title: 'Requirements governance',
+    body:
+      'Stable requirement identity, metadata, traceability rules, and structured import patterns for turning planning input into reviewable QA material.',
+  },
+  {
+    title: 'Test generation and review',
+    body:
+      'AI-assisted test drafting, validation, review artifacts, and export-ready packages that keep generated work inspectable before it is trusted.',
+  },
+  {
+    title: 'Test asset management',
+    body:
+      'Durable reviewed case assets, mapping records, manifest links, and feedback indexes that separate source assets from runtime evidence.',
+  },
+  {
+    title: 'Execution feedback loops',
+    body:
+      'Contract, API, UI, and generated-test loops that return structured feedback from execution back into the generation and review process.',
+  },
+  {
+    title: 'Desktop evidence architecture',
+    body:
+      'Machine-role boundaries, headed execution evidence, screenshots, recordings, and logs tied to the environment that observed behavior.',
+  },
+  {
+    title: 'Metrics and reporting',
+    body:
+      'Daily, historical, developer, QA, and workbook-style reporting flows that make quality and delivery signals easier to inspect over time.',
+  },
+  {
+    title: 'Knowledge governance',
+    body:
+      'A separation between private notes, draft lessons, review proposals, and shared guidance so fast learning can become trusted practice.',
+  },
+  {
+    title: 'AI workflow standardization',
+    body:
+      'Reusable assistant workflows for test management, execution, bug drafting, knowledge capture, reporting, and live run learning.',
+  },
+];
+
+const phases = [
+  {
+    month: 'March',
+    title: 'Evidence and review foundations',
+    body:
+      'The exploration started with a simple rule: fast AI output needs evidence, review gates, traceability, and generated test asset discipline before it becomes QA work.',
+  },
+  {
+    month: 'April',
+    title: 'Reporting and measurable outputs',
+    body:
+      'The work expanded from individual artifacts into reporting validation, digest structure, metrics review, and delivery hygiene so outputs could be checked and reused.',
+  },
+  {
+    month: 'May',
+    title: 'Reusable automation and shared guidance',
+    body:
+      'The focus moved toward batch reporting, reusable automation patterns, and shared operating rules that could travel beyond a single workflow.',
+  },
+  {
+    month: 'June',
+    title: 'Knowledge governance, evidence architecture, and resilience',
+    body:
+      'The later phase connected regression learning, knowledge boundaries, desktop evidence architecture, and operational resilience for the automation system itself.',
+  },
+];
+---
+
+<BaseLayout
+  title="Progress | Dear Bug Diary"
+  description="A public-safe progress review of IQDP, an AI-assisted QA operating model."
+>
+  <article class="page-intro">
+    <p class="eyebrow">Progress review</p>
+    <h1>Building IQDP: An AI-Assisted QA Operating Model</h1>
+    <p>
+      A public-safe progress review of how AI can connect requirements, testing,
+      evidence, reporting, knowledge, and governance.
+    </p>
+  </article>
+
+  <section class="feature-strip">
+    <p class="eyebrow">Why this matters</p>
+    <h2>Quality work needs a connected operating model.</h2>
+    <p>
+      The problem is not only test automation. A stronger QA practice needs a
+      traceable path from requirements to tests, from execution to evidence,
+      from evidence to reporting, and from lessons learned to governed reuse.
+      IQDP, Intelligent Quality & Delivery Platform, is the target system for
+      that exploration.
+    </p>
+  </section>
+
+  <section>
+    <p class="eyebrow">What IQDP means</p>
+    <h2>Traceable, measurable, reusable, and governed AI-assisted QA.</h2>
+    <p>
+      IQDP is a methodology and platform direction for using AI as an assistant
+      in QA work while preserving human review, evidence discipline, and
+      reusable operating rules. The underlying repo review is source material
+      only; the public record is expressed as capabilities, methods, and
+      progress.
+    </p>
+  </section>
+
+  <section>
+    <p class="eyebrow">Capability map</p>
+    <ul class="entry-list">
+      {
+        capabilities.map((item) => (
+          <li class="entry-card">
+            <h2>{item.title}</h2>
+            <p>{item.body}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section>
+    <p class="eyebrow">Phase timeline</p>
+    <ul class="entry-list">
+      {
+        phases.map((phase) => (
+          <li class="entry-card">
+            <div class="entry-meta">
+              <span>{phase.month}</span>
+            </div>
+            <h2>{phase.title}</h2>
+            <p>{phase.body}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section>
+    <p class="eyebrow">Current maturity</p>
+    <div class="link-grid">
+      <div class="card">
+        <strong>Built</strong>
+        <span>
+          Evidence-first workflows, review gates for AI-generated output,
+          generated test asset discipline, reporting foundations, and knowledge
+          governance boundaries.
+        </span>
+      </div>
+      <div class="card">
+        <strong>In progress</strong>
+        <span>
+          Stronger traceability across requirements, tests, execution, and
+          reporting; tighter feedback loops between generation and execution;
+          resilient automation operations.
+        </span>
+      </div>
+      <div class="card">
+        <strong>Next</strong>
+        <span>
+          Governed AI repair, formal test-management linking, multi-project
+          onboarding, and broader IQDP operating model stabilization.
+        </span>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

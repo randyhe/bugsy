@@ -52,15 +52,14 @@ A row becomes reviewable when it can survive the question "says who?"
 
 ## Behind the Diary
 
-This entry reflects work on making imported requirement-like data traceable
-instead of merely converted. AI can help transform and classify rows quickly,
-but the useful part is preserving identity, source context, and review meaning.
+The technical problem is traceability loss during structured data conversion.
+AI can transform spreadsheet-shaped input quickly, but converted rows lose QA
+value if source identity, generated identity, and review meaning are unclear.
 
-- AI angle: use AI to interpret structured input and suggest transformations,
-  then keep the identity rules explicit.
-- QA value: separate source identity, generated identity, and reviewable fields.
-- Reusable asset: a safer traceability workflow for turning spreadsheet-shaped
-  material into QA work.
+Randy used AI to interpret and classify input while keeping identity rules
+explicit. In the March foundation phase, this created a reusable transformation
+method for turning structured requirement material into QA work without losing
+the ability to answer where each row came from.
 
 ## Privacy Note
 

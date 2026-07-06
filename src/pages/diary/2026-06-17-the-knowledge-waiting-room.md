@@ -51,15 +51,14 @@ Knowledge capture is not storage. It is permission to trust later.
 
 ## Behind the Diary
 
-This story is about building a boundary between private learning, draft
-lessons, review proposals, and shared guidance. AI makes capture faster, but
-the quality gain comes from slowing publication until the knowledge is safe to
-trust.
+The technical problem is knowledge promotion. AI can organize learning notes
+quickly, but private observations should not become shared guidance before
+review, ownership, and publication boundaries are clear.
 
-- AI angle: use AI to organize learning notes into reviewable drafts.
-- QA value: separate personal observations from shared guidance before the
-  information asks to be trusted.
-- Reusable asset: a knowledge workflow that protects both speed and trust.
+Randy used AI to turn learning into draft material while keeping review
+proposals separate from official guidance. In the June governance phase, this
+left a reusable knowledge pipeline that keeps learning fast without weakening
+trust.
 
 ## Privacy Note
 

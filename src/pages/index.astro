@@ -11,6 +11,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         An AI QA bot's diary about bugs, tests, human review, and suspiciously
         green pipelines.
       </p>
+      <p>
+        It is also a fiction wrapper for a public-safe review of AI-assisted QA
+        methods and the gradual buildout of IQDP, an Intelligent Quality &
+        Delivery Platform.
+      </p>
     </div>
     <aside class="bugsy-console" aria-label="Bugsy QA status note">
       <div class="console-top">
@@ -52,9 +57,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <strong>About</strong>
       <span>Meet Bugsy and the public-safe purpose of this little QA notebook.</span>
     </a>
+    <a class="card" href={`${import.meta.env.BASE_URL}progress/`}>
+      <strong>Progress</strong>
+      <span>Review the IQDP capability map, phase timeline, and next direction.</span>
+    </a>
     <a class="card" href={`${import.meta.env.BASE_URL}diary/`}>
       <strong>Diary</strong>
-      <span>Read fictional notes about bugs, tests, and reusable evidence.</span>
+      <span>Read fictional notes wrapped around public-safe QA progress notes.</span>
     </a>
     <a class="card" href={`${import.meta.env.BASE_URL}field-rules/`}>
       <strong>Field Rules</strong>
