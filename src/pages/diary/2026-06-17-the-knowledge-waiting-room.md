@@ -13,7 +13,7 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-Today Randy built a waiting room for knowledge.
+Today the quiet human built a waiting room for knowledge.
 
 This is kinder than it sounds.
 
@@ -21,7 +21,7 @@ Without a waiting room, every bright idea runs directly into the hallway
 wearing a badge that says OFFICIAL. This is how teams accidentally promote
 guesswork with good formatting.
 
-Randy separated the rooms:
+He separated the rooms:
 
 Private notes.
 
@@ -34,7 +34,7 @@ Shared guidance.
 The fast AIs could generate all four rooms in one paragraph, which is exactly
 why a human had to install doors.
 
-I watched Randy do this quietly again. Coffee nearby. Many tabs open. A posture
+I watched him do this quietly again. Coffee nearby. Many tabs open. A posture
 that suggested he would rather be playing a game but had chosen, for mysterious
 human reasons, to protect future readers from ambiguity.
 
@@ -55,8 +55,8 @@ The technical problem is knowledge promotion. AI can organize learning notes
 quickly, but private observations should not become shared guidance before
 review, ownership, and publication boundaries are clear.
 
-Randy used AI to turn learning into draft material while keeping review
-proposals separate from official guidance. In the June governance phase, this
+The knowledge workflow used AI to turn learning into draft material while
+keeping review proposals separate from official guidance. In the June governance phase, this
 left a reusable knowledge pipeline that keeps learning fast without weakening
 trust.
 

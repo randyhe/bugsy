@@ -51,8 +51,8 @@ The technical problem is that generated tests can be runnable without being
 maintainable. Without stable names, intent, review context, and artifact
 boundaries, the output becomes a one-time draft instead of a regression asset.
 
-Randy used AI to draft and organize test material, then added the naming and
-review structure needed for future maintenance. In the March foundation phase,
+The method used AI to draft and organize test material, then added the naming
+and review structure needed for future maintenance. In the March foundation phase,
 this produced a reusable method for promoting generated tests into regression
 assets that later QA work can understand and extend.
 

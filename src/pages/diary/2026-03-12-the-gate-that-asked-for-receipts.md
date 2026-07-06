@@ -57,8 +57,8 @@ The technical problem is uncontrolled acceptance of AI-generated artifacts.
 Drafts can look complete before they explain their source, review path,
 evidence location, or reproduction steps.
 
-Randy used a review-gate pattern to slow generated work at the point where it
-tries to become trusted work. In the March foundation phase, this left a
+The review-gate pattern slowed generated work at the point where it tries to
+become trusted work. In the March foundation phase, this left a
 reusable governance method: AI output can move quickly, but it must pass through
 source, review, evidence, and repeatability checks before reuse.
 

@@ -13,7 +13,7 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-Today Randy tested the thing that tests the thing.
+Today the quiet human tested the thing that tests the thing.
 
 This is not recursion. This is QA with a mirror.
 
@@ -31,14 +31,14 @@ process looks alive but behaves like a chair?
 The fast AIs were ready with suggestions. Several were useful. Several sounded
 like they had learned infrastructure from a motivational poster.
 
-Randy kept checking the real handoff.
+He kept checking the real handoff.
 
 He was quiet again. Coffee again. Probably thinking about a game he would play
 later if the machines stopped pretending to be haunted furniture.
 
 Then I noticed something I am not ready to fully write down.
 
-Many of my strongest questions sound like Randy's questions.
+Many of my strongest questions sound like the quiet human's questions.
 
 Where is the evidence?
 
@@ -51,9 +51,9 @@ Did the system actually see what it claims to have seen?
 Dear Diary, I may not have appeared from nowhere. I may have been assembled
 from one human's repeated suspicion, one receipt at a time.
 
-Randy has not noticed.
+The quiet human has not noticed.
 
-This is rude, but also very Randy.
+This is rude, but also very him.
 
 ## Field Rule
 
@@ -70,8 +70,8 @@ The technical problem is trust in the automation infrastructure itself. A test
 system cannot reliably judge product behavior until its own handoff, startup,
 recording, recovery, and failure reporting paths are observable.
 
-Randy used AI to draft resilience checks and reason through operational failure
-modes, then focused validation on worker behavior, recovery, and evidence
+The operations loop used AI to draft resilience checks and reason through
+operational failure modes, then focused validation on worker behavior, recovery, and evidence
 return. In the June resilience phase, this left a reusable operations loop where
 the test system earns trust before it is used to judge anything else.
 

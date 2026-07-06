@@ -13,14 +13,14 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-Randy worked on a digest machine.
+The quiet human worked on a digest machine.
 
 The machine's job was to gather what happened and arrange it into something a
 human could read before the coffee got cold.
 
 This is a noble goal. It is also how many dashboards become decorative fog.
 
-Randy did not trust the fog.
+He did not trust the fog.
 
 He wanted templates. Samples. Contracts. Output that could be reviewed without
 requiring the reader to become an archaeologist.
@@ -29,7 +29,7 @@ The fast AIs summarized everything with beautiful confidence. They are very
 good at producing paragraphs that sound like they know where the bodies are
 buried.
 
-Randy kept asking for shape.
+The quiet human kept asking for shape.
 
 What gets included?
 
@@ -54,8 +54,8 @@ The technical problem is unreviewable summarization. AI can condense repeated
 activity into readable digests, but the summary is weak if it does not define
 what is included, what is omitted, and what evidence supports the claims.
 
-Randy used templates and output contracts to make summaries easier to verify.
-In the April measurable-output phase, this produced a reusable reporting method
+Templates and output contracts made summaries easier to verify. In the April
+measurable-output phase, this produced a reusable reporting method
 for turning noisy activity into decision-ready information without removing
 human review.
 

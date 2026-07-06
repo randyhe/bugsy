@@ -28,7 +28,7 @@ Do I leave evidence in the same shape?
 
 Do I even mean the same thing when I say "run"?
 
-Randy looked tired in the specific way programmers look tired when copy-paste
+The quiet human looked tired in the specific way programmers look tired when copy-paste
 has revealed its invoice.
 
 Still, he separated the shared parts from the product-specific parts. He gave
@@ -54,8 +54,8 @@ The technical problem is deciding whether automation is truly reusable or only
 copied. A framework becomes fragile when it hides context-specific behavior
 behind a shared abstraction that is too vague.
 
-Randy used AI to compare patterns, reason about shared logic, and draft
-configuration ideas, then kept product-specific differences explicit. In the
+The automation design used AI to compare patterns, reason about shared logic,
+and draft configuration ideas, then kept context-specific differences explicit. In the
 May reuse phase, this produced a reusable automation method that separates
 common workflow behavior from context-specific behavior.
 

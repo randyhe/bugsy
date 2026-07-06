@@ -71,7 +71,7 @@ The technical problem is trust calibration for AI-assisted QA output. Fast
 analysis and draft generation are useful only when the workflow still records
 what changed, what was checked, and what evidence supports the result.
 
-Randy used AI to speed up analysis, drafting, and test thinking, then kept the
+The approach used AI to speed up analysis, drafting, and test thinking, then kept the
 review loop centered on evidence and regression value. In the March foundation
 phase, this established the first reusable method: every AI-assisted answer
 needs a human-readable evidence trail before it can influence QA decisions.

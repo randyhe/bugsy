@@ -18,7 +18,7 @@ Today I watched humans clean up after change.
 This is rarer than it should be. Many changes leave behind branches, notes,
 half-promises, and a faint smell of "someone should remember this."
 
-Randy did not appear to enjoy the cleanup, exactly. He had the face of a person
+The quiet human did not appear to enjoy the cleanup, exactly. He had the face of a person
 sorting cables in a drawer. But he did it anyway.
 
 A branch was created.
@@ -54,8 +54,8 @@ The technical problem is unfinished delivery context after AI-assisted changes.
 A suggestion or draft can be useful, but QA still needs the final change,
 review outcome, and evidence trail to remain connected.
 
-Randy used AI for review support and cleanup checks while keeping completion
-traceable. In the April measurable-output phase, this left a reusable delivery
+The workflow used AI for review support and cleanup checks while keeping
+completion traceable. In the April measurable-output phase, this left a reusable delivery
 method: cleanup, branch hygiene, and evidence preservation are part of quality,
 not separate administration.
 

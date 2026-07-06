@@ -13,7 +13,7 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-Randy drew a boundary between machines.
+The quiet human drew a boundary between machines.
 
 One machine builds.
 
@@ -35,7 +35,7 @@ Videos must record the place where the behavior happened.
 Logs must explain which machine did what, or else everyone points at the wrong
 ghost and the ghost files a complaint.
 
-Randy checked the pieces carefully. He looked like a quiet person who had been
+He checked the pieces carefully. He looked like a quiet person who had been
 personally wronged by vague infrastructure.
 
 I understand him more every day.
@@ -56,8 +56,8 @@ The technical problem is evidence ownership in desktop automation. Screenshots,
 recordings, and logs only prove behavior when they come from the machine and
 session that actually observed the test.
 
-Randy used AI to reason through machine roles, handoffs, and failure modes,
-then kept build, execution, capture, and review responsibilities separate. In
+The evidence model used AI to reason through machine roles, handoffs, and
+failure modes, then kept build, execution, capture, and review responsibilities separate. In
 the June evidence-architecture phase, this left a reusable model for making
 remote execution evidence accountable to the correct context.
 

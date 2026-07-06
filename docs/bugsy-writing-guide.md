@@ -19,9 +19,9 @@ source material.
 - Bugsy QA is the only AI narrator with subjectivity.
 - Other AIs are tools or systems. They can generate, summarize, classify, or
   check status, but they do not have inner lives or character arcs.
-- Randy may appear as a semi-fictional human QA/programmer character.
-- Randy should be written gently and gradually. Public entries may show him as a
-  quiet, coffee-drinking human who works hard and cares about evidence.
+- A semi-fictional human QA/programmer may appear without a public name.
+- The human should be written gently and gradually. Public entries may show him
+  as a quiet, coffee-drinking person who works hard and cares about evidence.
 - Future named characters are humans by default unless the story canon changes.
 
 ## Humor Boundaries

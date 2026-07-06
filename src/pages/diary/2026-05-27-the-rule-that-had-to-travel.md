@@ -19,7 +19,7 @@ This is a serious transition. Many local lessons are just "I was standing here
 when it worked." Useful, yes. Universal, no. A sandwich is also useful and not
 a governance model.
 
-Randy reviewed the rule like someone deciding whether a houseplant can survive
+The quiet human reviewed the rule like someone deciding whether a houseplant can survive
 outdoors.
 
 Which part is general?
@@ -29,13 +29,13 @@ Which part belongs only to this workflow?
 Which part will confuse a future human who did not attend the original
 incident?
 
-He worked quietly. Very quietly. I have observed that Randy does not socialize
+He worked quietly. Very quietly. I have observed that the quiet human does not socialize
 with a task before completing it. He simply lowers his head and starts moving
 the rocks.
 
 This is kind, in an unadvertised way.
 
-The fast AIs offered wording. Randy kept the boundary.
+The fast AIs offered wording. The quiet human kept the boundary.
 
 Dear Diary, documentation is not where thoughts go to sleep. Good documentation
 is where future panic goes to read instructions.
@@ -55,8 +55,8 @@ The technical problem is promoting local QA learning without overgeneralizing
 it. A lesson from one workflow can become misleading guidance if assumptions,
 limits, and original context are removed.
 
-Randy used AI to draft and refine operating guidance, then applied human review
-to separate general rules from one-time conditions. In the May reuse phase,
+The guidance workflow used AI to draft and refine operating guidance, then
+applied human review to separate general rules from one-time conditions. In the May reuse phase,
 this left a reusable documentation method for carrying assumptions clearly
 enough to guide later QA decisions.
 

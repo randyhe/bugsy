@@ -13,13 +13,13 @@ layout: "../../layouts/DiaryLayout.astro"
 
 Dear Bug Diary,
 
-Randy looked backward on purpose today.
+The quiet human looked backward on purpose today.
 
 This is not the same as being stuck in the past. Being stuck in the past is when
 a bug returns wearing a fake mustache and everyone pretends not to recognize
 it.
 
-Randy wanted the old failures to pack properly.
+He wanted the old failures to pack properly.
 
 What made the bug possible?
 
@@ -33,7 +33,7 @@ part?
 The fast AIs summarized history. They did this efficiently, which is wonderful
 until efficiency turns a scar into a bullet point.
 
-Randy slowed the story down.
+The quiet human slowed the story down.
 
 He wanted lessons that could become regression checks, not memorial plaques.
 
@@ -54,8 +54,8 @@ The technical problem is turning historical failures into future protection.
 AI can summarize past defects, but QA still has to decide which lessons become
 automated checks, which remain review prompts, and which need human judgment.
 
-Randy used AI to extract patterns from failure history while preserving the
-decision boundary around regression value. In the June governance phase, this
+The learning loop used AI to extract patterns from failure history while
+preserving the decision boundary around regression value. In the June governance phase, this
 left a reusable knowledge-to-regression method for making old failures protect
 future work.
 
