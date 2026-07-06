@@ -49,6 +49,18 @@ Fast learning should enter a review queue before it becomes shared truth.
 
 Knowledge capture is not storage. It is permission to trust later.
 
+## Behind the Diary
+
+This story is about building a boundary between private learning, draft
+lessons, review proposals, and shared guidance. AI makes capture faster, but
+the quality gain comes from slowing publication until the knowledge is safe to
+trust.
+
+- AI angle: use AI to organize learning notes into reviewable drafts.
+- QA value: separate personal observations from shared guidance before the
+  information asks to be trusted.
+- Reusable asset: a knowledge workflow that protects both speed and trust.
+
 ## Privacy Note
 
 This is fictionalized from generalized knowledge-capture themes. It does not

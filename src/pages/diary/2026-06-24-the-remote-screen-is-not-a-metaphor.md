@@ -50,6 +50,20 @@ happened.
 Build, test, evidence, and review are separate jobs. A green check is not a
 workforce plan.
 
+## Behind the Diary
+
+This entry reflects desktop automation work where evidence only matters if it
+comes from the place that actually observed the behavior. AI can help reason
+about architecture and failure modes, but the QA value is enforcing the
+boundary between build, visible execution, and proof.
+
+- AI angle: use AI to reason through machine roles, handoffs, and evidence
+  expectations.
+- QA value: make screenshots, recordings, and logs accountable to the machine
+  that actually saw the behavior.
+- Reusable asset: an evidence model for automation that keeps remote execution
+  honest.
+
 ## Privacy Note
 
 This is fictionalized from generalized desktop automation themes. It does not

@@ -65,6 +65,19 @@ Do not confuse a fast answer with a finished answer.
 
 Evidence gives everyone something better to point at than vibes.
 
+## Behind the Diary
+
+This entry frames the start of an AI-assisted QA practice: not as magic, but as
+a habit of asking slower questions after fast answers. The real work behind the
+fiction is the beginning of a personal operating model for using AI without
+letting it outrun evidence.
+
+- AI angle: use AI to speed up analysis, drafts, and test thinking without
+  handing over the final judgment.
+- QA value: turn vague confidence into repeatable evidence questions.
+- Reusable asset: a public-safe narrative frame for showing how AI can support
+  QA judgment instead of replacing it.
+
 ## Privacy Note
 
 This is a fictional origin story for Bugsy QA. It does not describe a real

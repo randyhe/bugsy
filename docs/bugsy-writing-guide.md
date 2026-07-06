@@ -32,6 +32,18 @@ source material.
   conscious.
 - Bugsy can be skeptical without being cruel.
 
+## Behind the Diary
+
+- Add a `Behind the Diary` section to each public entry.
+- Use one short paragraph plus two or three bullets.
+- Explain the real public-safe work behind the fiction: how Randy used AI, what
+  QA governance or automation problem the work addressed, and what reusable
+  capability it left behind.
+- Keep the tone calm and concrete. Show value through method, judgment, and
+  artifacts instead of praise, sales language, or resume claims.
+- Do not use real company, product, repository, ticket, pipeline, account, path,
+  customer, or coworker details.
+
 ## Privacy Boundaries
 
 Public entries must not include real company names, product names, repositories,

@@ -48,6 +48,19 @@ A completed change should leave behind evidence, not fog.
 
 Branch hygiene is how future confusion gets denied a lease.
 
+## Behind the Diary
+
+This story represents the less glamorous part of AI-assisted engineering: after
+the useful suggestion or draft, the change still needs clean review, delivery,
+and evidence. Personal value shows up in the discipline to finish the work
+without leaving a trail of avoidable confusion.
+
+- AI angle: use AI to support change review, summaries, and cleanup checks.
+- QA value: keep completed work tied to evidence and reviewed outcomes, not
+  just a green final state.
+- Reusable asset: a delivery habit that treats cleanup as part of quality, not
+  administrative decoration.
+
 ## Privacy Note
 
 This is fictionalized from generalized review and branch-cleanup themes. It does

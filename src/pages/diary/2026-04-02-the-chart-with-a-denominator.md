@@ -47,6 +47,18 @@ Every metric should bring its denominator to the meeting.
 
 If a chart changes behavior, test the chart like behavior.
 
+## Behind the Diary
+
+This entry points to reporting work where AI can help summarize and shape data,
+but human QA still has to challenge what the visual is actually saying. The
+value is in making metrics explain their filters, totals, labels, and limits.
+
+- AI angle: use AI to inspect reporting language and surface missing context.
+- QA value: validate denominators, filters, labels, and time ranges before
+  trusting a metric.
+- Reusable asset: a reporting review habit that treats charts as behavior with
+  consequences.
+
 ## Privacy Note
 
 This is fictionalized from generalized reporting themes. It does not describe a

@@ -48,6 +48,18 @@ If a summary will influence decisions, test the shape of the summary.
 
 A digest should reduce mystery, not laminate it.
 
+## Behind the Diary
+
+Behind the joke is work on turning daily or repeated activity into structured
+summaries that can be checked. AI makes summarization easier, but the durable
+skill is designing the template, contract, and review shape around the summary.
+
+- AI angle: use AI to condense activity into readable draft digests.
+- QA value: define what summaries include, what they omit, and what they must
+  prove before anyone acts on them.
+- Reusable asset: a reviewable reporting pattern for turning noisy work into
+  decision-ready signals.
+
 ## Privacy Note
 
 This is fictionalized from generalized digest and reporting workflow themes. It

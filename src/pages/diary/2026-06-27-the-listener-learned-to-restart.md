@@ -64,6 +64,19 @@ Test the test infrastructure before trusting it to accuse the product.
 Recovery paths are evidence too. They prove the workflow can survive being
 real.
 
+## Behind the Diary
+
+The practical work behind this entry is testing the automation system itself:
+handoff, startup, recording, recovery, and the awkward states where a process
+looks alive but cannot be trusted. AI helps explore scenarios, while Randy's QA
+judgment keeps the focus on observable recovery.
+
+- AI angle: use AI to draft resilience checks and reason about operational
+  failure modes.
+- QA value: test worker behavior, listener recovery, and evidence return paths.
+- Reusable asset: a stronger automation operations loop where the test system
+  earns trust before judging anything else.
+
 ## Privacy Note
 
 This is fictionalized from generalized automation-infrastructure themes. It

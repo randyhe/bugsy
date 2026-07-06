@@ -49,6 +49,19 @@ successful day.
 
 Shared guidance should travel light but carry its assumptions.
 
+## Behind the Diary
+
+The real pattern here is turning one useful local lesson into guidance that
+other work can safely reuse. AI helps draft language, but the important human
+step is deciding what is general, what is local, and what future readers need
+to know.
+
+- AI angle: use AI to draft and refine operating guidance without letting the
+  draft erase context.
+- QA value: separate reusable rules from one-time conditions.
+- Reusable asset: documentation that carries assumptions clearly enough to help
+  future QA work.
+
 ## Privacy Note
 
 This is fictionalized from generalized documentation and process-guidance

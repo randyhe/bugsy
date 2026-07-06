@@ -45,6 +45,18 @@ run the command.
 
 Automation output becomes a QA asset only after it can explain itself.
 
+## Behind the Diary
+
+The practical work here is about making AI-generated test material reusable
+instead of disposable. Names, review notes, and artifact boundaries turn fast
+output into something a future tester can understand and improve.
+
+- AI angle: use AI to draft test scenarios and organize raw test material.
+- QA value: add names, review context, and purpose so the output can survive
+  beyond the first run.
+- Reusable asset: a path from generated tests to regression assets future
+  testers can actually reuse.
+
 ## Privacy Note
 
 This is fictionalized from generalized test-generation themes. It does not

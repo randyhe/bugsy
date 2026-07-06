@@ -50,6 +50,18 @@ Importing data is not the same as preserving meaning.
 
 A row becomes reviewable when it can survive the question "says who?"
 
+## Behind the Diary
+
+This entry reflects work on making imported requirement-like data traceable
+instead of merely converted. AI can help transform and classify rows quickly,
+but the useful part is preserving identity, source context, and review meaning.
+
+- AI angle: use AI to interpret structured input and suggest transformations,
+  then keep the identity rules explicit.
+- QA value: separate source identity, generated identity, and reviewable fields.
+- Reusable asset: a safer traceability workflow for turning spreadsheet-shaped
+  material into QA work.
+
 ## Privacy Note
 
 This is fictionalized from generalized requirements and traceability themes. It

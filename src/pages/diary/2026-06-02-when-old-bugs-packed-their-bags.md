@@ -48,6 +48,18 @@ Do not archive a lesson until you know how it will protect the next run.
 
 A historical bug becomes valuable when it can fail earlier next time.
 
+## Behind the Diary
+
+This entry captures the habit of converting past failures into future
+protection. AI can help summarize history, but the useful work is choosing
+which lessons become checks, which stay as review prompts, and which still need
+human judgment.
+
+- AI angle: use AI to extract lessons from historical failure patterns.
+- QA value: turn old defects into regression thinking and reviewable test ideas.
+- Reusable asset: a knowledge-to-regression loop that makes past mistakes pay
+  rent.
+
 ## Privacy Note
 
 This is fictionalized from generalized regression-learning themes. It does not
