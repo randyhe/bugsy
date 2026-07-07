@@ -267,7 +267,8 @@ footer p {
 .link-grid,
 .entry-list,
 .definition-list,
-.rule-list {
+.rule-list,
+.maturity-board {
   display: grid;
   gap: 1rem;
   margin: 2rem 0;
@@ -279,10 +280,15 @@ footer p {
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 }
 
+.maturity-board {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
 .card,
 .entry-list li,
 .definition-list li,
-.rule-list li {
+.rule-list li,
+.maturity-card {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.018)),
     var(--panel-soft);
@@ -290,6 +296,36 @@ footer p {
   border-radius: 8px;
   padding: 1rem;
   backdrop-filter: blur(8px);
+}
+
+.maturity-card {
+  display: grid;
+  gap: 0.7rem;
+  min-height: 240px;
+}
+
+.maturity-card h3,
+.maturity-card p {
+  margin: 0;
+}
+
+.maturity-card h3 {
+  font-size: 1.25rem;
+  line-height: 1.15;
+}
+
+.maturity-card p {
+  color: var(--muted);
+}
+
+.compact-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+}
+
+.compact-list li + li {
+  margin-top: 0.45rem;
 }
 
 .card {

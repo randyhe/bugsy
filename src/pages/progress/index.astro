@@ -70,6 +70,59 @@ const phases = [
       'The later phase connected regression learning, knowledge boundaries, desktop evidence architecture, and operational resilience for the automation system itself.',
   },
 ];
+
+const maturity = [
+  {
+    capability: 'Evidence-first workflow',
+    status: 'Built',
+    proof:
+      'Generated work is treated as draft material until it has source context, review notes, evidence, and repeatable checks.',
+    next: 'Make evidence links easier to follow across requirement, test, and report artifacts.',
+  },
+  {
+    capability: 'AI-generated test review gate',
+    status: 'Built',
+    proof:
+      'AI can draft and organize test material, but the method keeps a human review boundary before reuse.',
+    next: 'Tighten the checklist for generated assets that are promoted into long-lived test suites.',
+  },
+  {
+    capability: 'Reporting validation',
+    status: 'Built',
+    proof:
+      'Reports are handled as inspectable outputs with definitions, filters, denominators, and reviewable exceptions.',
+    next: 'Connect reporting signals more directly to execution feedback and requirement coverage.',
+  },
+  {
+    capability: 'Knowledge governance',
+    status: 'In progress',
+    proof:
+      'Private notes, draft lessons, review proposals, and shared guidance are kept in separate lanes.',
+    next: 'Improve promotion rules so useful learning becomes team-safe guidance without losing context.',
+  },
+  {
+    capability: 'Requirement-test-execution traceability',
+    status: 'In progress',
+    proof:
+      'Identity, mapping, generated assets, execution results, and reports are being shaped into one connected chain.',
+    next: 'Formalize linking across the full path from requirement intake to reusable regression evidence.',
+  },
+  {
+    capability: 'Governed AI repair',
+    status: 'Next',
+    proof:
+      'Repair is not treated as magic. It needs failure evidence, proposed change boundaries, rerun proof, and review.',
+    next: 'Define when AI may suggest fixes, how those fixes are reviewed, and what evidence closes the loop.',
+  },
+];
+
+const operatingPrinciples = [
+  'AI output is fast draft work until evidence makes it reusable.',
+  'A green result is a signal, not a story.',
+  'Reports need definitions, filters, denominators, and exceptions.',
+  'Private learning can inform public writing only after it is generalized.',
+  'Useful QA automation includes recovery, ownership, and proof of what actually ran.',
+];
 ---
 
 <BaseLayout
@@ -111,6 +164,13 @@ const phases = [
 
   <section>
     <p class="eyebrow">Capability map</p>
+    <h2>Eight connected capabilities, not eight isolated tools.</h2>
+    <p>
+      The work is organized around QA capabilities rather than implementation
+      inventory. Each area is useful alone, but the real value appears when
+      requirements, tests, execution, evidence, reports, and knowledge can
+      reinforce each other.
+    </p>
     <ul class="entry-list">
       {
         capabilities.map((item) => (
@@ -121,6 +181,30 @@ const phases = [
         ))
       }
     </ul>
+  </section>
+
+  <section>
+    <p class="eyebrow">Maturity board</p>
+    <h2>What is built, what is still forming, and what comes next.</h2>
+    <p>
+      This board is intentionally method-focused. It shows current progress in
+      public-safe language without turning private implementation details into
+      a public inventory.
+    </p>
+    <div class="maturity-board">
+      {
+        maturity.map((item) => (
+          <article class="maturity-card">
+            <div class="entry-meta">
+              <span>{item.status}</span>
+            </div>
+            <h3>{item.capability}</h3>
+            <p>{item.proof}</p>
+            <p><strong>Next:</strong> {item.next}</p>
+          </article>
+        ))
+      }
+    </div>
   </section>
 
   <section>
@@ -167,5 +251,13 @@ const phases = [
         </span>
       </div>
     </div>
+  </section>
+
+  <section class="feature-strip">
+    <p class="eyebrow">Operating principles</p>
+    <h2>The method is becoming a set of reusable QA rules.</h2>
+    <ul class="compact-list">
+      {operatingPrinciples.map((principle) => <li>{principle}</li>)}
+    </ul>
   </section>
 </BaseLayout>

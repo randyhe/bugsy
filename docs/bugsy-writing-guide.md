@@ -51,6 +51,19 @@ source material.
 - Do not use real company, product, repository, ticket, pipeline, account, path,
   customer, or coworker details.
 
+## Candidate Quality Gate
+
+- Do not publish an entry just because a day produced activity.
+- Publish only when the candidate has a clear public-safe QA, testing, evidence,
+  reporting, knowledge, automation, or governance theme.
+- Each candidate should show one specific technical problem, how AI-assisted QA
+  work helped move it forward, and what reusable method or judgment remained.
+- Quiet days, repetitive maintenance, unclear evidence, private-only work, and
+  unsafe source material should become private review notes instead of public
+  diary entries.
+- A good entry should work in two layers: the diary voice should be readable and
+  memorable, while `Behind the Diary` should make the practical QA value clear.
+
 ## Progress Page
 
 - Use `IQDP` publicly as the target methodology and system name: Intelligent
@@ -60,6 +73,9 @@ source material.
 - Treat repo review as source material only. Public copy must translate it into
   capability language and must not list internal repositories or implementation
   inventory.
+- Keep the Progress page as the global methodology view. Individual diary
+  entries should point to one focused lesson, not repeat the entire operating
+  model.
 
 ## Privacy Boundaries
 
