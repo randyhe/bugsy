@@ -37,12 +37,15 @@ source material.
 - Add a `Behind the Diary` section to each public entry.
 - Write it as a concise technical note, not as another fictional or humorous
   section.
-- Use a two-paragraph structure by default:
-  - Paragraph 1: the technical problem for this entry and why it matters.
-  - Paragraph 2: how AI or QA method advanced the problem, where it sits in the
-    phase progression, and what reusable method remains.
+- Use `Core question + two technical paragraphs` by default:
+  - Start with `**Core question:** ...?` as the only fixed reader-facing label.
+  - Paragraph 1: explain why that specific technical question matters.
+  - Paragraph 2: explain how AI-assisted QA or QA method advanced the problem,
+    where it sits in the phase progression, and what reusable method remains.
 - Add a third paragraph only for a real limitation, incomplete item, or next
   step.
+- Do not add template labels such as `Solution`, `AI angle`, `QA value`, or
+  `Reusable asset`.
 - Do not repeat the full IQDP explanation in individual diary entries; the
   `Progress` page owns the global methodology narrative.
 - Keep the tone calm, concrete, and technical. Show value through method,

@@ -67,14 +67,17 @@ Evidence gives everyone something better to point at than vibes.
 
 ## Behind the Diary
 
-The technical problem is trust calibration for AI-assisted QA output. Fast
-analysis and draft generation are useful only when the workflow still records
-what changed, what was checked, and what evidence supports the result.
+**Core question:** How can fast AI-assisted QA output become trusted work instead of persuasive draft work?
 
-The approach used AI to speed up analysis, drafting, and test thinking, then kept the
-review loop centered on evidence and regression value. In the March foundation
-phase, this established the first reusable method: every AI-assisted answer
-needs a human-readable evidence trail before it can influence QA decisions.
+Fast analysis and draft generation are useful only when the workflow still
+records what changed, what was checked, and what evidence supports the result.
+Without that calibration, speed can make uncertainty look finished.
+
+The approach used AI to speed up analysis, drafting, and test thinking, then
+kept the review loop centered on evidence and regression value. In the March
+foundation phase, this established the first reusable method: every AI-assisted
+answer needs a human-readable evidence trail before it can influence QA
+decisions.
 
 ## Privacy Note
 

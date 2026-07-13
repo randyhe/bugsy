@@ -66,14 +66,18 @@ real.
 
 ## Behind the Diary
 
-The technical problem is trust in the automation infrastructure itself. A test
-system cannot reliably judge product behavior until its own handoff, startup,
-recording, recovery, and failure reporting paths are observable.
+**Core question:** How can test infrastructure earn trust before it is used to judge product behavior?
+
+A test system cannot reliably judge product behavior until its own handoff,
+startup, recording, recovery, and failure reporting paths are observable.
+Infrastructure reliability is part of the evidence chain, not just a setup
+detail.
 
 The operations loop used AI to draft resilience checks and reason through
-operational failure modes, then focused validation on worker behavior, recovery, and evidence
-return. In the June resilience phase, this left a reusable operations loop where
-the test system earns trust before it is used to judge anything else.
+operational failure modes, then focused validation on worker behavior, recovery,
+and evidence return. In the June resilience phase, this left a reusable
+operations loop where the test system earns trust before it is used to judge
+anything else.
 
 ## Privacy Note
 

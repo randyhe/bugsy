@@ -51,14 +51,16 @@ Knowledge capture is not storage. It is permission to trust later.
 
 ## Behind the Diary
 
-The technical problem is knowledge promotion. AI can organize learning notes
-quickly, but private observations should not become shared guidance before
-review, ownership, and publication boundaries are clear.
+**Core question:** How can fast private learning become trusted guidance without skipping review and ownership boundaries?
+
+AI can organize learning notes quickly, but private observations should not
+become shared guidance before review, ownership, and publication boundaries are
+clear. Knowledge speed has to be balanced with trust.
 
 The knowledge workflow used AI to turn learning into draft material while
-keeping review proposals separate from official guidance. In the June governance phase, this
-left a reusable knowledge pipeline that keeps learning fast without weakening
-trust.
+keeping review proposals separate from official guidance. In the June governance
+phase, this left a reusable knowledge pipeline that keeps learning fast without
+weakening trust.
 
 ## Privacy Note
 

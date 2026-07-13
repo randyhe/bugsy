@@ -52,14 +52,16 @@ workforce plan.
 
 ## Behind the Diary
 
-The technical problem is evidence ownership in desktop automation. Screenshots,
-recordings, and logs only prove behavior when they come from the machine and
-session that actually observed the test.
+**Core question:** How can desktop automation evidence prove which machine and session actually observed the behavior?
+
+Screenshots, recordings, and logs only prove behavior when they come from the
+machine and session that actually observed the test. Evidence loses value when
+capture, execution, and review contexts are mixed together.
 
 The evidence model used AI to reason through machine roles, handoffs, and
-failure modes, then kept build, execution, capture, and review responsibilities separate. In
-the June evidence-architecture phase, this left a reusable model for making
-remote execution evidence accountable to the correct context.
+failure modes, then kept build, execution, capture, and review responsibilities
+separate. In the June evidence-architecture phase, this left a reusable model
+for making remote execution evidence accountable to the correct context.
 
 ## Privacy Note
 

@@ -50,14 +50,16 @@ A historical bug becomes valuable when it can fail earlier next time.
 
 ## Behind the Diary
 
-The technical problem is turning historical failures into future protection.
+**Core question:** How can historical failures become future regression protection instead of archived anecdotes?
+
 AI can summarize past defects, but QA still has to decide which lessons become
 automated checks, which remain review prompts, and which need human judgment.
+Failure history only becomes useful when it changes future protection.
 
 The learning loop used AI to extract patterns from failure history while
-preserving the decision boundary around regression value. In the June governance phase, this
-left a reusable knowledge-to-regression method for making old failures protect
-future work.
+preserving the decision boundary around regression value. In the June governance
+phase, this left a reusable knowledge-to-regression method for making old
+failures protect future work.
 
 ## Privacy Note
 

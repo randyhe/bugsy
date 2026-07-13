@@ -52,14 +52,16 @@ A row becomes reviewable when it can survive the question "says who?"
 
 ## Behind the Diary
 
-The technical problem is traceability loss during structured data conversion.
+**Core question:** How can structured input become QA material without losing row identity and traceability?
+
 AI can transform spreadsheet-shaped input quickly, but converted rows lose QA
 value if source identity, generated identity, and review meaning are unclear.
+Traceability has to survive the conversion, not get reconstructed afterward.
 
 The workflow used AI to interpret and classify input while keeping identity
-rules explicit. In the March foundation phase, this created a reusable transformation
-method for turning structured requirement material into QA work without losing
-the ability to answer where each row came from.
+rules explicit. In the March foundation phase, this created a reusable
+transformation method for turning structured requirement material into QA work
+without losing the ability to answer where each row came from.
 
 ## Privacy Note
 

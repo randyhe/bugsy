@@ -50,14 +50,16 @@ Branch hygiene is how future confusion gets denied a lease.
 
 ## Behind the Diary
 
-The technical problem is unfinished delivery context after AI-assisted changes.
+**Core question:** How can AI-assisted changes keep their delivery context through review, cleanup, and completion?
+
 A suggestion or draft can be useful, but QA still needs the final change,
-review outcome, and evidence trail to remain connected.
+review outcome, and evidence trail to remain connected. Otherwise the work may
+look done while the delivery story is unfinished.
 
 The workflow used AI for review support and cleanup checks while keeping
-completion traceable. In the April measurable-output phase, this left a reusable delivery
-method: cleanup, branch hygiene, and evidence preservation are part of quality,
-not separate administration.
+completion traceable. In the April measurable-output phase, this left a reusable
+delivery method: cleanup, branch hygiene, and evidence preservation are part of
+quality, not separate administration.
 
 ## Privacy Note
 

@@ -50,14 +50,15 @@ A digest should reduce mystery, not laminate it.
 
 ## Behind the Diary
 
-The technical problem is unreviewable summarization. AI can condense repeated
-activity into readable digests, but the summary is weak if it does not define
-what is included, what is omitted, and what evidence supports the claims.
+**Core question:** How can AI-generated summaries stay reviewable when they compress repeated QA activity?
+
+AI can condense repeated activity into readable digests, but a summary is weak
+if it does not define what is included, what is omitted, and what evidence
+supports the claims. Readability alone is not enough for QA reporting.
 
 Templates and output contracts made summaries easier to verify. In the April
-measurable-output phase, this produced a reusable reporting method
-for turning noisy activity into decision-ready information without removing
-human review.
+measurable-output phase, this produced a reusable reporting method for turning
+noisy activity into decision-ready information without removing human review.
 
 ## Privacy Note
 

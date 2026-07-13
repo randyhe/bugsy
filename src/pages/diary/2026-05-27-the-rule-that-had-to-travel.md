@@ -51,14 +51,16 @@ Shared guidance should travel light but carry its assumptions.
 
 ## Behind the Diary
 
-The technical problem is promoting local QA learning without overgeneralizing
-it. A lesson from one workflow can become misleading guidance if assumptions,
-limits, and original context are removed.
+**Core question:** How can local QA learning become shared guidance without overgeneralizing the original context?
+
+A lesson from one workflow can become misleading guidance if assumptions,
+limits, and original context are removed. Shared rules need enough context to
+travel without pretending every situation is the same.
 
 The guidance workflow used AI to draft and refine operating guidance, then
-applied human review to separate general rules from one-time conditions. In the May reuse phase,
-this left a reusable documentation method for carrying assumptions clearly
-enough to guide later QA decisions.
+applied human review to separate general rules from one-time conditions. In the
+May reuse phase, this left a reusable documentation method for carrying
+assumptions clearly enough to guide later QA decisions.
 
 ## Privacy Note
 

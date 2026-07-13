@@ -50,14 +50,16 @@ itself.
 
 ## Behind the Diary
 
-The technical problem is deciding whether automation is truly reusable or only
-copied. A framework becomes fragile when it hides context-specific behavior
-behind a shared abstraction that is too vague.
+**Core question:** How can QA automation prove it is reusable instead of merely copied into a second context?
+
+A framework becomes fragile when it hides context-specific behavior behind a
+shared abstraction that is too vague. Reuse has to preserve the differences
+that matter while removing duplication that does not.
 
 The automation design used AI to compare patterns, reason about shared logic,
-and draft configuration ideas, then kept context-specific differences explicit. In the
-May reuse phase, this produced a reusable automation method that separates
-common workflow behavior from context-specific behavior.
+and draft configuration ideas, then kept context-specific differences explicit.
+In the May reuse phase, this produced a reusable automation method that
+separates common workflow behavior from context-specific behavior.
 
 ## Privacy Note
 

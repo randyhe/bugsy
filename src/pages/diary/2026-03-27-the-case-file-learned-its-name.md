@@ -47,14 +47,16 @@ Automation output becomes a QA asset only after it can explain itself.
 
 ## Behind the Diary
 
-The technical problem is that generated tests can be runnable without being
-maintainable. Without stable names, intent, review context, and artifact
-boundaries, the output becomes a one-time draft instead of a regression asset.
+**Core question:** How can generated tests become maintainable regression assets instead of one-time runnable drafts?
+
+Generated tests can be runnable without being maintainable. Without stable
+names, intent, review context, and artifact boundaries, the output becomes a
+temporary draft instead of a regression asset future QA work can trust.
 
 The method used AI to draft and organize test material, then added the naming
-and review structure needed for future maintenance. In the March foundation phase,
-this produced a reusable method for promoting generated tests into regression
-assets that later QA work can understand and extend.
+and review structure needed for future maintenance. In the March foundation
+phase, this produced a reusable method for promoting generated tests into
+regression assets that later QA work can understand and extend.
 
 ## Privacy Note
 

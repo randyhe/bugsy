@@ -53,14 +53,16 @@ Review gates do not hate speed. They hate undocumented confidence.
 
 ## Behind the Diary
 
-The technical problem is uncontrolled acceptance of AI-generated artifacts.
-Drafts can look complete before they explain their source, review path,
-evidence location, or reproduction steps.
+**Core question:** How can AI-generated artifacts pass into reuse without skipping source, review, evidence, and repeatability checks?
 
-The review-gate pattern slowed generated work at the point where it tries to
-become trusted work. In the March foundation phase, this left a
-reusable governance method: AI output can move quickly, but it must pass through
-source, review, evidence, and repeatability checks before reuse.
+Generated drafts can look complete before they explain their source, review
+path, evidence location, or reproduction steps. That makes a review gate
+necessary at the moment when draft work tries to become trusted work.
+
+The review-gate pattern slowed generated work at the trust boundary. In the
+March foundation phase, this left a reusable governance method: AI output can
+move quickly, but it must pass through source, review, evidence, and
+repeatability checks before reuse.
 
 ## Privacy Note
 

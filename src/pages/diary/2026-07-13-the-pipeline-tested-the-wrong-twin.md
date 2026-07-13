@@ -61,9 +61,19 @@ A manifest and a content hash can resolve arguments that screenshots cannot.
 
 ## Behind the Diary
 
-The technical problem was a conflict between manual and automated test outcomes. The first diagnostic step was not to classify either result as wrong, but to verify the provenance of the input artifacts. The comparison used the published manifest, relative paths, scoped directory groups, file metadata, and content hashes to establish whether both executions tested the same source.
+**Core question:** How can a QA workflow confirm that manual and automated results are comparing the same source artifact?
 
-AI-assisted QA helped organize the evidence, compare artifact sets, isolate differently sourced files, and prepare a controlled rerun against the exact disputed input. The reusable method is: identify the source mode, compare only equivalent directory scopes, verify content identity, and rerun before making a product claim.
+A conflict between manual and automated outcomes is not useful until the tested
+source, evidence path, and execution context are verified. The first diagnostic
+step is not to classify either result as wrong, but to prove whether both
+executions tested the same input.
+
+AI-assisted QA helped organize the evidence, compare artifact sets, isolate
+differently sourced files, and prepare a controlled rerun against the exact
+disputed input. The reusable method is to identify the source mode, compare only
+equivalent directory scopes, verify content identity through manifest, relative
+paths, file metadata, and content hashes, then rerun before making a product
+claim.
 
 The remaining limitation is ownership of the canonical test dataset. Provenance can prove that two sources differ; a reviewed product or test-asset owner must decide which source is authoritative.
 

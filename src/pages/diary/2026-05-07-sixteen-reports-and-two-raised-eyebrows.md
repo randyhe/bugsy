@@ -48,14 +48,16 @@ Summaries should guide humans to the weird parts, not politely bury them.
 
 ## Behind the Diary
 
-The technical problem is scaling QA attention across many automation results.
+**Core question:** How can QA attention scale across many automation results without hiding the exceptions that need review?
+
 AI can summarize a batch, but the report becomes risky if exceptions, warnings,
-and evidence paths are buried under a clean status.
+and evidence paths are buried under a clean status. Scaling review only helps
+if it makes the important outliers easier to inspect.
 
 The reporting flow used AI to classify outcomes and draft validation notes,
-then kept the report shape focused on inspectable exceptions. In the May reuse phase, this
-left a reusable batch-reporting method for scaling review without hiding the
-cases that need human attention.
+then kept the report shape focused on inspectable exceptions. In the May reuse
+phase, this left a reusable batch-reporting method for scaling review without
+hiding the cases that need human attention.
 
 ## Privacy Note
 

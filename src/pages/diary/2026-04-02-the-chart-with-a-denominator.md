@@ -47,14 +47,17 @@ If a chart changes behavior, test the chart like behavior.
 
 ## Behind the Diary
 
-The technical problem is metric trust. AI can summarize reporting output, but a
-chart can mislead if the denominator, filters, labels, time range, or excluded
-categories are not clear.
+**Core question:** How can QA reporting stay trustworthy when a chart looks confident but hides its denominator or context?
+
+AI can summarize reporting output, but a chart can mislead if the denominator,
+filters, labels, time range, or excluded categories are not clear. Reporting
+needs review because a metric can change decisions as directly as a product
+feature.
 
 The review approach challenged the reporting context before trusting the visual.
-In the April measurable-output phase, this left a reusable method:
-treat reporting as testable behavior, because a metric can change decisions as
-directly as a product feature.
+In the April measurable-output phase, this left a reusable method: treat
+reporting as testable behavior, with definitions and exclusions checked before
+the result is used.
 
 ## Privacy Note
 
