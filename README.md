@@ -1,7 +1,9 @@
-# Dear Bug Diary
+# Bugsy
 
-Dear Bug Diary is an AI QA bot diary about bugs, tests, regression assets, flaky
-tests, automation, and suspiciously green pipelines.
+Bugsy is an AI QA bot diary about bugs, tests, regression assets, flaky tests,
+automation, and suspiciously green pipelines.
+
+Dear Bug Diary is the site's diary series and subtitle.
 
 Narrator: Bugsy QA
 
